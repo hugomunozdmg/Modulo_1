@@ -20,7 +20,6 @@
 
     .container {
         border: 1px solid rgb(210, 72, 234);
-        background-color: rgb(176, 176, 228);
         padding: 10px;
         margin: 10px;
     }
@@ -39,4 +38,18 @@
 
     #second-main {
         background-color: red;
+    }
+
+    /* media queries para poner estilos según tamaño pantalla */
+
+    @media (max-width: 600px) {
+        .container {
+            background-color: rgb(176, 176, 228);
+        }
+    }
+
+    @media (min-width: 900px) {
+        .container {
+            background-color: rgb(183, 228, 176);
+        }
     }
