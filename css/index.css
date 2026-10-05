@@ -1,0 +1,42 @@
+    * {
+        background-color: grey;
+    }
+
+    p {
+        background-color: aquamarine;
+        color: brown;
+    }
+
+    p,
+    h1,
+    .important {
+        color: rgb(252, 152, 36);
+        border: 1px solid black;
+    }
+
+    #home {
+        color: red;
+    }
+
+    .container {
+        border: 1px solid rgb(210, 72, 234);
+        background-color: rgb(176, 176, 228);
+        padding: 10px;
+        margin: 10px;
+    }
+
+    #links {
+        background-color: azure;
+    }
+
+    p.main {
+        background-color: brown;
+    }
+
+    .main {
+        border: 1px solid black;
+    }
+
+    #second-main {
+        background-color: red;
+    }
