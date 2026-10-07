@@ -16,11 +16,9 @@
 
 
         a {
-            background-color: white;
-            color: rgb(92, 215, 174);
             padding: 4px;
-            border-radius: 3px;
             text-decoration: none;
+            text-transform: uppercase;
         }
 
         nav {
@@ -29,7 +27,20 @@
             justify-content: space-between;
             padding-left: 20px;
             padding-right: 20px;
-            background-color: rgb(92, 215, 174);
+            background-color: rgb(92, 184, 215);
+        }
+
+        #titles-container {
+            text-align: right;
+        }
+
+        #titles-container h3,
+        #titles-container h5 {
+            margin: 5px;
+        }
+
+        p, h3, h5, a {
+            color: white;
         }
     </style>
 </head>
@@ -37,8 +48,9 @@
 <body>
     <header>
         <nav>
-            <div>
-                <h4>TÍTULO DE LA PAGINA</h4>
+            <div id="titles-container">
+                <h3>TÍTULO DE LA PAGINA</h3>
+                <h5>subtitulo</h5>
             </div>
             <div>
                 <a href="">Google</a>
