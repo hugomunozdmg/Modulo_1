@@ -1,0 +1,42 @@
+@media (max-width:600px) {
+    body {
+        background-color: rgb(253, 129, 129);
+        width: 100%;
+    }
+
+    p {
+        font-size: 11px;
+    }
+}
+
+@media (min-width:600px) and (max-width:800px) {
+    body {
+        background-color: rgb(82, 162, 82);
+        width: 60%;
+    }
+
+    #recomendaciones {
+        background-color: rgb(152, 221, 236);
+        width: 30%;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 800px) {
+    body {
+        width: 80%;
+        background-color: blueviolet;
+    }
+
+    #recomendaciones {
+        width: 15%;
+        background-color: rgb(250, 250, 0);
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
