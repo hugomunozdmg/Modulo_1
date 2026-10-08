@@ -9,7 +9,7 @@
 
 <body>
     <script>
-        // Ejercicio 10
+        // ======== Ejercicio 10 ========
         // let number1 = parseFloat(window.prompt("Inserte un número:"))
         // let number2 = parseFloat(window.prompt("Inserte un número:"))
         // let number3 = parseFloat(window.prompt("Inserte un número:"))
@@ -17,7 +17,8 @@
         // let media = (number1 + number2 + number3) / 3
         // window.alert("La media es: " + media)
 
-        //Ejercicio 15
+
+        // ======== Ejercicio 15 ========
 
         // let a = parseFloat(window.prompt("Inserte número a:"))
         // let b = parseFloat(window.prompt("Inserte número b:"))
@@ -28,7 +29,8 @@
 
         // alert(`Ahora a es: ${a}, y b es: ${b}`)
 
-        //Ejercicio 17
+
+        // ======== Ejercicio 17 ========
 
         // let n = window.prompt("introduzca un número:")
         // let nn = n + n
@@ -38,26 +40,52 @@
 
         // window.alert(`El resultado es: ${result}`)
 
-        //Ejercicio 18
 
-        // let totalSeconds = parseInt(window.prompt("Introduce los segundos:"))
+        // ======== Ejercicio 18 ========
 
-        // let remainSecs = totalSeconds % 3600
-        // let hours = (totalSeconds - remainSecs) / 3600
+        // let totalSeconds = 4000
 
-        // let seconds = remainSecs % 60
-        // let minutes = (remainSecs - seconds) / 60
+        // let hours = totalSeconds / 3600
 
-        // alert(`${hours}:${minutes}:${seconds}`)
+        // let parteDecimalHoras = hours - parseInt(hours)
+        // console.log(parteDecimalHoras)
+        // console.log(hours)
 
-        //Ejercicio 21
+        // let minutes = parteDecimalHoras * 60
+        // console.log(minutes)
 
-        alert(parseInt(Math.random() * (100 - 1) + 1))
+        // let parteDecimalMinutos = minutes - parseInt(minutes)
+        // let seconds = parteDecimalMinutos * 60
 
+        // alert(`${parseInt(hours)}:${parseInt(minutes)}:${parseInt(seconds)}`)
+
+
+        // ======== Ejercicio 19 ========
+
+        // let n1 = 9
+        // let n2 = 2
+
+        // let div = parseInt(n1/n2)
+        // console.log(n1-(n2*div))
+
+
+        // ======== Ejercicio 20 ========
+
+        // let totalMinutes = 1000000
+        // let years = (totalMinutes - totalMinutes % (60 * 24 * 365)) / (60 * 24 * 365)
+
+        // let days = (totalMinutes - years * (60 * 24 * 365)) / (60 * 24)
+        // console.log(`years: ${years}, days: ${days}`)
+
+
+        
+        // ======== Ejercicio 21 ========
+
+        // alert(parseInt(Math.random() * (100 - 1) + 1))
 
 
     </script>
-    <script type="module" src="index.js"></script>
+    <!-- <script type="module" src="index.js"></script> -->
 </body>
 
 </html>
